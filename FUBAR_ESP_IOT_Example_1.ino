@@ -1,9 +1,32 @@
-/*	This is the standard Ardunio "Blink" code
+/*	This is the a modification the Ardunio "Blink" code
 	We're using this a a hello world and to test our IDE setup and nodeMCU board
 	This blinks the LED on GPIO 6 defined as "LED_BUILTIN"
 */
 
 #include "Arduino.h"
+
+unsigned long pMills = 0;
+unsigned long cMills = 0;
+unsigned long cTime = 500;
+uint8_t LEDstate = 1;
+
+uint8_t TogLED(uint8_t state)
+{
+	uint8_t rState;
+	if (state > 0)
+	{
+		digitalWrite(LED_BUILTIN, HIGH); 
+		rState = 0;
+	}
+	else
+	{
+		digitalWrite(LED_BUILTIN, LOW);// Turn the LED on (Note that LOW is the voltage level
+										 // but actually the LED is on; this is because 
+										 // it is acive low on the ESP-01)
+		rState = 1;
+	}
+	return rState;
+}
 
 void setup() 
 {
@@ -13,10 +36,10 @@ void setup()
 // the loop function runs over and over again forever
 void loop() 
 {
-	digitalWrite(LED_BUILTIN, LOW);   // Turn the LED on (Note that LOW is the voltage level
-									  // but actually the LED is on; this is because 
-									  // it is acive low on the ESP-01)
-	delay(1000);                      // Wait for a second
-	digitalWrite(LED_BUILTIN, HIGH);  // Turn the LED off by making the voltage HIGH
-	delay(2000);                      // Wait for two seconds (to demonstrate the active low LED)
+	cMills = millis();
+	if(cMills - pMills > cTime)
+	{
+		pMills = cMills;
+		LEDstate = TogLED(LEDstate);
+	}
 }
