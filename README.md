@@ -7,6 +7,6 @@ Fubar labs ESP8266 IOT course outline
 ## Resoruces
 
 ### ESP8266 ardunio libraries and documentation
-[esp8266/Arduino](esp8266/Arduino)
+[esp8266/Arduino](https://github.com/esp8266/Arduino)
 
 
