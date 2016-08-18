@@ -1,12 +1,16 @@
-# Fubar-ESP8266-IOT Class
-Fubar labs ESP8266 IOT course outline
+# **Fubar-ESP8266-IOT Class**
+## Fubar labs ESP8266 IOT course outline
 - Set up IDE
 - ESP8266 "hello world" blink program
-- ESP8266 wifi scan and connect program
+- ESP8266 WiFi scan and connect program
 
-## Resoruces
+## Resources
 
-### ESP8266 ardunio libraries and documentation
+### ESP8266 Ardunio libraries and documentation
+
 [esp8266/Arduino](https://github.com/esp8266/Arduino)
 
+### ESP8266 nodeMCU board pinouts
+
+[nodemcu/nodemcu-devkit-v1.0](https://github.com/nodemcu/nodemcu-devkit-v1.0)
 
