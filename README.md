@@ -1,6 +1,6 @@
 # **Fubar-ESP8266-IOT Class 1**
 ## Fubar labs ESP8266 IOT course outline
-- Outline presentation ![](https://github.com/neilpf2014/Fubar-ESP8266-IOT/FUBAR IoT with ESP8266.pdf) 
+- Outline presentation https://github.com/neilpf2014/Fubar-ESP8266-IOT/FUBAR_IoT_with_ESP8266.pdf) 
 - Set up IDE
 - ESP8266 "hello world" blink program
 - ESP8266 WiFi scan and connect program
