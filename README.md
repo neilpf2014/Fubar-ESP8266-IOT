@@ -1,4 +1,4 @@
-# **Fubar-ESP8266-IOT Class**
+# **Fubar-ESP8266-IOT Class 1**
 ## Fubar labs ESP8266 IOT course outline
 - Set up IDE
 - ESP8266 "hello world" blink program
