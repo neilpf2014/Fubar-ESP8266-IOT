@@ -12,7 +12,7 @@
 
 ### ESP8266 nodeMCU board pinouts
 
-Note bottom of image is USB connector side of board.  Vin is connected directly to the 5v lines of the USB input. Don't apply over 3.3 to any of the GPIO pins
+Note: Bottom of image is USB connector side of board.  *Vin* is connected directly to the 5v lines of the USB input. Don't apply over 3.3v to any of the IO pins
 
 Link to [nodemcu/nodemcu-devkit-v1.0](https://github.com/nodemcu/nodemcu-devkit-v1.0)
 
