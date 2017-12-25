@@ -5,7 +5,7 @@
 - ESP8266 WiFi scan and connect program
 - *TODO: info for using Platform IO instead of Ardunio IDE, http://platformio.org/ probably with VS code editor http://docs.platformio.org/en/latest/ide/vscode.html
 
--*TODO: info for using Platform IO instead of Ardunio IDE, http://platformio.org/ probably with VS code editor http://docs.platformio.org/en/latest/ide/vscode.html
+-*TODO: info for using Platform IO instead of Ardunio IDE, http://platformio.org/ probably with VS code editor http://docs.platformio.org/en/latest/ide/vscode.html*
 
 ## Resources
 
