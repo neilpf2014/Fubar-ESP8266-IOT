@@ -1,11 +1,13 @@
 # **Fubar-ESP8266-IOT Class 1**
+
 ## Fubar labs ESP8266 IOT course outline
+
 - Outline presentation https://github.com/neilpf2014/Fubar-ESP8266-IOT/blob/master/FUBAR_IoT_with_ESP8266.pdf
 - Set up IDE
 - ESP8266 "hello world" blink program
 - ESP8266 WiFi scan and connect program
-- *TODO: info for using Platform IO instead of Ardunio IDE, http://platformio.org/ probably with VS code editor http://docs.platformio.org/en/latest/ide/vscode.html*
-
+- Added PIO CPP formated src
+- *TODO: Will be using Platform IO instead of Ardunio IDE now, http://platformio.org/ with VS code editor http://docs.platformio.org/en/latest/ide/vscode.html* *will add some info*
 
 ## Resources
 
@@ -20,4 +22,3 @@ Note: Bottom of image is USB connector side of board.  *Vin* is connected direct
 Link to [nodemcu/nodemcu-devkit-v1.0](https://github.com/nodemcu/nodemcu-devkit-v1.0)
 
 ![board image](https://raw.githubusercontent.com/nodemcu/nodemcu-devkit-v1.0/master/Documents/NODEMCU_DEVKIT_V1.0_PINMAP.png)
-
